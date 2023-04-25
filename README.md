@@ -22,7 +22,7 @@ Consider the array <b>arr[] = {10, 50, 30, 70, 80, 20, 90, 40} </b>and <b>key = 
 <br>
 ![image](https://user-images.githubusercontent.com/125802204/234277164-b629b19e-9f7f-4f3c-9f62-69ea14e938cf.png)
 <br>
-<b>tep 4:</b> arr[2] is not the same with key. Increment i and compare key with arr[3].<br>
+<b>Step 4:</b> arr[2] is not the same with key. Increment i and compare key with arr[3].<br>
 <br>
 ![image](https://user-images.githubusercontent.com/125802204/234277327-db88e8c3-6d9b-49ac-b036-d800adf0bac4.png)
 <br>
@@ -39,7 +39,9 @@ Consider the array <b>arr[] = {10, 50, 30, 70, 80, 20, 90, 40} </b>and <b>key = 
 <br>
 
 <ol><b>Best Case:</b></ol> In the best case, the key might be present at the first index. So the best case complexity is O(1)<br>
+<br>
 <ol><b>Worst Case:</b></ol> In the worst case, the key might be present at the last index i.e., opposite to the end from which the search has started in the list. So the worst case complexity is O(N) where N is the size of the list.<br>
+<br>
 <ol><b>Average Case:</b></ol> O(N)<br>
 <br>
 <b><ins>Auxiliary Space:</b></ins> O(1) as except the variable to iterate through the list, no other variable is used.<br>
